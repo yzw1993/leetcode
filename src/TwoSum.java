@@ -4,17 +4,17 @@
 public class TwoSum {
     public int[] twoSum(int[] nums, int target){
         int[] result = new int[2];
-        for(int x = 0;x <nums.length;x++){
-            for(int y = x+1;y < nums.length;y++){
-                if((nums[x] + nums[y])== target)
-                {
-                    result[0] = x;
-                    result[1] = y;
+        for(int i =0;i<nums.length;i++){
+            for(int j=i+1;j<nums.length;j++){
+                if(target ==(nums[i]+nums[j])){
+                    result[0]=i;
+                    result[1]=j;
                     break;
                 }
             }
         }
-        System.out.println(result[0]+","+result[1]);
+        System.out.println(result[0]+" "+result[1]);
         return result;
     }
+
 }

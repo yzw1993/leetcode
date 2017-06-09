@@ -7,5 +7,7 @@ public class Main {
         int[] nums ={2,7,12,15,20};
         int target = 9;
         ts.twoSum(nums,target);
+
+
     }//22222233333
 }
