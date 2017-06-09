@@ -3,10 +3,10 @@
  */
 public class Main {
     public static void main(String[] args){
-        TwoSum ts =new TwoSum();
+        TwoSum2 ts =new TwoSum2();
         int[] nums ={2,7,12,15,20};
         int target = 9;
-        ts.twoSum(nums,target);
+        ts.twoSum2(nums,target);
 
 
     }//22222233333
