@@ -10,8 +10,9 @@ public class LongestSubstringWithoutPC {
             return 0;
         }
         int count =1;
-        int end =0;
-        for (int start=0;start<s.length();start++){
+        int start=0;
+        int end = 0;
+        for (;start<s.length();start++){
             Set<Character> set =new HashSet<Character>();
             set.add(s.charAt(start));
             for(end=start+1;end<s.length()&&!set.contains(s.charAt(end));end++){
