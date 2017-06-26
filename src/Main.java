@@ -3,10 +3,10 @@
  */
 public class Main {
     public static void main(String[] args){
-        TwoSum2 ts =new TwoSum2();
-        int[] nums ={2,7,12,15,20};
-        int target = 9;
-        ts.twoSum2(nums,target);
+        MedianOfTwoSortedArrays ms =new MedianOfTwoSortedArrays();
+        int[] num1 ={1,3};
+        int[] num2 ={2};
+        ms.findMedianSortedArrays(num1,num2);
 
 
     }//22222233333
