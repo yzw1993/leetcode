@@ -6,8 +6,6 @@ public class Main {
         MedianOfTwoSortedArrays ms =new MedianOfTwoSortedArrays();
         int[] num1 ={1,3};
         int[] num2 ={2};
-        ms.findMedianSortedArrays(num1,num2);
-
 
     }//22222233333
 }
